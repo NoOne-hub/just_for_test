@@ -166,7 +166,7 @@ async function downloader_jd() {
         await download("https://github.com/an0na/jd_scripts/raw/master/jdCookie.js", "./jdCookie.js", "京东Cookies");
     if (remoteContent.indexOf("jdFruitShareCodes") > 0) {
         await download(
-            "https://gitee.com/an0na/jd_scripts/raw/master/jdFruitShareCodes.js",
+            "https://github.com/an0na/jd_scripts/raw/master/jdFruitShareCodes.js",
             "./jdFruitShareCodes.js",
             "东东农场互助码"
         );
