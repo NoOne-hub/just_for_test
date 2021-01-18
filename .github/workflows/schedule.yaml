@@ -37,4 +37,5 @@ jobs:
                   TRIGGER_KEYWORDS: ${{ secrets.TRIGGER_KEYWORDS }}
                   #CRONTAB
                   CRONTAB: ${{ '0 0 */6 * * *' }} #每6小时触发一次
+                  GITHUB: ${{ github.event.client_payload.GITHUB || secrets.GITHUB }}
                   SYNCURL: https://github.com/an0na/jd_scripts_new/raw/master/jd_crazy_joy_coin.js #此处填写你要执行的js
