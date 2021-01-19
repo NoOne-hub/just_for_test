@@ -1,4 +1,4 @@
-name: 疯狂JOY挂机(自动)
+name: 自定义JOB
 
 on:
     workflow_dispatch:
