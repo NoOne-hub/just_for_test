@@ -1,4 +1,4 @@
-name: 京东疯狂JOY
+name: 疯狂JOY
 
 on:
     workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
             - name: 安装依赖包
               run: |
                   npm install
-            - name: "运行【京东疯狂JOY】"
+            - name: "运行【疯狂JOY】"
               run: |
                   node onlyOneExecute.js
               env:
