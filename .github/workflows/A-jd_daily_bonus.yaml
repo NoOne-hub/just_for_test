@@ -1,4 +1,4 @@
-name: 京东每日签到
+name: 每日签到
 
 on:
     workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
               uses: actions/setup-node@v1
               with:
                   node-version: "12.x"
-            - name: Run app
+            - name: 运行【每日签到】
               run: npm install
             - run: node onlyOneExecute.js
               env:
