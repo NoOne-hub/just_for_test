@@ -35,4 +35,4 @@ jobs:
                   TG_BOT_TOKEN: ${{ github.event.client_payload.TG_BOT_TOKEN || secrets.TG_BOT_TOKEN }}
                   TG_USER_ID: ${{ github.event.client_payload.TG_USER_ID || secrets.TG_USER_ID }}
                   GITHUB: ${{ github.event.client_payload.GITHUB || secrets.GITHUB }}
-                  SYNCURL: https://github.com/an0na/jd_scripts_new/raw/master/jd_firecrackers.js
+                  SYNCURL: https://github.com/an0na/jd_scripts/raw/master/jd_firecrackers.js
